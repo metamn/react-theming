@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { ThemeProvider } from './with-theme-switcher/ThemeContext';
-import theme from './with-theme-switcher/theme';
-import App from './with-theme-switcher/App';
+import App from './simple-theme/App';
 
 ReactDOM.render(
-	<ThemeProvider theme={theme}>
-		<App />
-	</ThemeProvider>,
+	<App />,
 	document.getElementById('root')
 );
